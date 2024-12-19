@@ -1,0 +1,26 @@
+{
+  "name": "teste-json-rules-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Luiz Carlos Bessa de Lima",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.0.1",
+    "axios": "^1.7.7",
+    "colors": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "express": "^4.21.1",
+    "json-rules-engine": "^7.0.0",
+    "prisma": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "sucrase": "^3.35.0"
+  }
+}
